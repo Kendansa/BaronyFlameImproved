@@ -14,8 +14,8 @@
 			<h2 id="subtitle">
 				Midrealm
 			</h2>
-			<h3 class= "date">
-				Today is (insert javascript date here) in the Middle Kingdom.
+			<h3 class= "date" id="javaDate">
+				Today is javaDate in the Middle Kingdom.
 			</h3>
 		</div>
 		<div class="text">
@@ -52,5 +52,8 @@
 				Our current king and queen are <b>Their Royal Majesties Ragnvaldr and Arabella</b>, and our current prince and princess are <b>Their Royal Highnesses Nikolai and Serena</b>.
 			</p>
 		</div>
+		<script>
+			document.getElementById("javaDate").innerHTML = Date();
+		</script>
 	</body>
 </html>
